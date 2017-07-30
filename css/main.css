@@ -1,0 +1,107 @@
+body
+{
+   background-image: url('../img/Arvo-Part.jpg');
+   background-size: 600px 337.5px;
+   background-position: 150px 0px;
+   background-repeat: no-repeat;
+   background-color: black;
+   margin: 0;
+}
+
+
+#container{
+   width: 1024px;
+   height: 1200px;
+   margin: auto;
+   border: 1px solid gold;
+   position: relative;
+   background-color: transparent;
+}
+
+/*@font-face{
+   font-family:'Bodoni BE';
+   src: local(FuturaStd-Bold) url('fonts/FuturaStd-Bold.otf') format('opentype');
+}*/
+
+header
+h1{
+   color: white;
+   font-size: 2em;
+   font-family: 'FuturaStd-Bold';
+   position:absolute;
+   left:500px;
+   top:120px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   /*margin: 100px 100px 0.5px 0px;*/
+   padding:0;
+   margin:0;
+}
+.Alina{
+   font-size:3.5em;
+   letter-spacing: 3px;
+   color:#8DFFCF;
+}
+.quote{
+   font-size:14px;
+   color:white;
+   width:550px;
+   position:absolute;
+   top:290px;
+   right:50px;
+   text-align-last: right;
+   /*margin:257px 100px 26.5px 700px;*/
+}
+
+main
+#container2{
+   width: 280px;
+   height: 430px;
+   margin: auto;
+   border: 1px solid gold;
+   position: absolute;
+   top:450px;
+   left:30px;
+   background-color: gold;
+/*   background-color: #8DFFCF;*/
+}
+#container3{
+   width: 300px;
+   height: 500px;
+   margin: auto;
+   border: 1px solid gold;
+   position: absolute;
+   top:450px;
+   left:360px;
+/*   top:450px;
+   left:30px;*/
+   background-color: #8DFFCF;
+}
+ol{
+   list-style-type: none;
+   position: absolute;
+   top: 20px;
+   left: -10px;
+   /*background-color: white;*/
+   }
+/*ol li{
+   background-color: white;
+}*/
+.song{
+   font-size: 1.2em;
+   letter-spacing: 0.1px;
+   word-spacing: 1px;
+   color:green;
+   line-height: 25px;
+
+}
+.player{
+   font-size: 14px;
+   font-family: 'Bodini BE';
+   text-indent: 15px;
+   word-spacing: 2px;
+   line-height: 7px;
+   color: black;
+   text-align: right;
+}
+
