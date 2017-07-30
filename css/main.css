@@ -23,26 +23,26 @@ body
    border-top: none;
    border-bottom: none;
    position: relative;
-   top:0;
+   top: 0;
    background-color: transparent;
 }
 h1{
    font-size: 15em;
    font-weight: 300;
    position:absolute;
-   left:390px;
+   left: 390px;
    top: -100px;
    letter-spacing: 5px;
-   color:rgba(255,215,0,0.3);
+   color: rgba(255,215,0,0.3);
 }
 h2{
    font-size: 4em;
    font-weight: 700;
-   position:absolute;
-   left:550px;
+   position: absolute;
+   left: 550px;
    top: 180px;
    letter-spacing: 5px;
-   color:rgba(255,215,0,0.6);
+   color: rgba(255,215,0,0.6);
 }
 
 main
@@ -51,15 +51,16 @@ main
    height: 430px;
    margin: auto;
    position: absolute;
-   top:400px;
-   left:30px;
-   background-color: rgba(127,127,127,0.7);
+   top: 400px;
+   left: 30px;
+   background-color: rgba(127,127,127,0.6);
 }
 
 ol{
    list-style-type: none;
    position: absolute;
    top: 20px;
+   left: -10px;
    }
 
 .song{
@@ -86,9 +87,9 @@ ol{
    margin: auto;
    border: 1px solid gold;
    position: absolute;
-   top:400px;
-   left:360px;
-   background-color: rgba(200,200,200,0.6);
+   top: 400px;
+   left: 360px;
+   background-color: rgba(250,250,250,0.6);
 }
 .heading{
    font-family: 'Spectral', serif;
